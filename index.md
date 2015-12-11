@@ -58,6 +58,9 @@ annotations. This schema is located in `compiler/src/main/schema`.
 
 ### Runtime
 
+The runtime is available on
+[The Central Repository](https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.capnproto%22).
+
 We use [sbt](http://scala-sbt.org) for building and testing the Java code.
 Running `sbt compile` at the top-level directory should build
 `org.capnproto` and `org.capnproto.examples`.
