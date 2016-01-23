@@ -40,6 +40,7 @@ but we have not embarked on that project yet.
 You will need to [install](http://capnproto.org/install.html) the
 latest release of the Cap'n Proto schema compiler.
 Then, running `make` should build `capnpc-java`.
+
 On Windows, you can instead
 grab a prebuilt win32 executable from here:
 
@@ -55,6 +56,7 @@ capnp compile --help
 Note that you'll need to include `java.capnp` so that you can use the `package` and `outerClassname`
 annotations. This schema is located in `compiler/src/main/schema`.
 
+You might find useful [this Maven Plugin](https://github.com/expretio/capnp-maven-plugin).
 
 ### Runtime
 
